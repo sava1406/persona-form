@@ -7,7 +7,7 @@ import InputMask from "react-input-mask"
 import { contactMethods, documentTypes, genderOptions } from "@/constants/options";
 
 
-type FormValues = {
+export type FormValues = {
     surname: string;
     name: string;
     patronymic: string;
